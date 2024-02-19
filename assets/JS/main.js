@@ -4,7 +4,6 @@ if (preloader) {
         preloader.classList.add('d-none');
     }, 3000);
 }
-
 (function () {
     "use strict";
     const select = (el, all = false) => {
