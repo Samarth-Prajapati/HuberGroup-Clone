@@ -618,6 +618,12 @@ section {
     min-height: 400px;
 }
 
+.counts .profile {
+    background: url("../IMAGES/image.jpg") center center no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
+
 @media (max-width: 991px) {
     .counts .image {
         text-align: center;
@@ -916,6 +922,14 @@ section {
     }
 }
 
+.contactus {
+    background-color: rgb(255, 189, 128);
+}
+
+.contactus:hover {
+    background-color: rgb(252, 252, 252);
+    border: solid black 2px;
+}
 
 #footer {
     background: black;
