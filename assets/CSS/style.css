@@ -29,6 +29,42 @@
     justify-content: center;
 }
 
+.downloadPortfolio {
+    position: fixed;
+    visibility: visible;
+    opacity: 1;
+    right: -82px;
+    bottom: 300px;
+    z-index: 99999;
+    background: #4154f1;
+    width: 220px;
+    height: 55px;
+    border-radius: 4px;
+    transition: all 0.4s;
+    -webkit-transform: rotate(-90deg);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.downloadPortfolio i {
+    font-size: 24px;
+    color: #ff1818;
+    line-height: 0;
+}
+
+.downloadPortfolio:hover {
+    background: #6776f4;
+    color: white;
+}
+
+.downloadPortfolio.active {
+    visibility: visible;
+    opacity: 1;
+}
 
 body {
     font-family: "Open Sans", sans-serif;
